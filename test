@@ -722,7 +722,7 @@ library.createSlider = function(option, parent)
 		option.fill.Size = UDim2.new((option.value - option.min) / (option.max - option.min), 0, 1, 0)
 	else
 		option.fill.Position = UDim2.new((0 - option.min) / (option.max - option.min), 0, 0, 0)
-		option.fill.Size = UDim2.new(option.value / (option.max - option.min), 0, 0.1, 0)
+		option.fill.Size = UDim2.new(option.value / (option.max - option.min), 0, 1, 0)
 	end
 
 	local manualInput
